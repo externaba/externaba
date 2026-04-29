@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Autorska prava i izvori — ExternaBA</title>
+<meta name="description" content="Informacije o izvorima sadržaja i autorskim pravima ExternaBA aplikacije.">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #060610;
+  --ink: rgba(255,255,255,.92);
+  --ink-2: rgba(255,255,255,.7);
+  --ink-3: rgba(255,255,255,.42);
+  --line: rgba(255,255,255,.1);
+  --gold: #F9A825;
+  --blue: #42A5F5;
+  --grn: #66BB6A;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  background: var(--bg); color: var(--ink-2);
+  font-family: 'DM Sans', -apple-system, sans-serif;
+  font-size: 16px; line-height: 1.7; min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+.wrap { max-width: 760px; margin: 0 auto; padding: 60px 24px 80px; }
+header { padding-bottom: 32px; border-bottom: 1px solid var(--line); margin-bottom: 40px; }
+.brand {
+  display: inline-flex; align-items: center; gap: 10px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 900; font-size: 22px; color: var(--ink);
+  margin-bottom: 12px; text-decoration: none;
+}
+.mark {
+  width: 36px; height: 36px; border-radius: 10px;
+  background: rgba(249,168,37,.15);
+  border: 1.5px solid rgba(249,168,37,.4);
+  display: grid; place-items: center;
+  font-size: 18px; color: var(--gold); font-weight: 900;
+}
+.brand em { color: var(--gold); font-style: italic; font-weight: 700; }
+.crumb { font-size: 13px; color: var(--ink-3); }
+.crumb a { color: var(--gold); text-decoration: none; }
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(34px, 5vw, 48px);
+  font-weight: 900; color: var(--ink);
+  letter-spacing: -.02em; line-height: 1.1;
+  margin: 16px 0 16px;
+}
+h1 em { font-style: italic; color: var(--gold); font-weight: 400; }
+.meta { font-size: 13px; color: var(--ink-3); }
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 26px; font-weight: 700;
+  color: var(--ink); margin: 56px 0 16px;
+  letter-spacing: -.01em;
+}
+h3 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 17px; font-weight: 700;
+  color: var(--ink); margin: 28px 0 10px;
+}
+p { margin-bottom: 16px; color: var(--ink-2); }
+p strong { color: var(--ink); font-weight: 600; }
+ul, ol { margin: 12px 0 20px 24px; }
+li { margin-bottom: 8px; color: var(--ink-2); }
+li::marker { color: var(--gold); }
+a { color: var(--gold); }
+code {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 13px; padding: 2px 6px; border-radius: 4px;
+  background: rgba(255,255,255,.06); color: var(--ink);
+}
+.callout {
+  padding: 20px 24px; margin: 24px 0;
+  background: rgba(102,187,106,.06);
+  border-left: 3px solid var(--grn);
+  border-radius: 8px;
+}
+.callout.blue { background: rgba(66,165,245,.06); border-left-color: var(--blue); }
+.callout.gold { background: rgba(249,168,37,.06); border-left-color: var(--gold); }
+.callout strong { color: #fff; }
+.attr-box {
+  margin: 32px 0; padding: 24px;
+  background: rgba(255,255,255,.03);
+  border: 1px solid var(--line); border-radius: 14px;
+}
+.attr-box h3 { margin-top: 0; }
+.attr-box .src-line {
+  display: flex; gap: 14px; align-items: start;
+  margin: 12px 0; padding: 10px 0;
+  border-top: 1px solid var(--line);
+}
+.attr-box .src-line:first-of-type { border-top: none; padding-top: 0; }
+.attr-box .src-line strong { color: var(--ink); font-weight: 600; min-width: 100px; }
+.attr-box .src-line span { font-size: 14.5px; color: var(--ink-2); }
+footer {
+  margin-top: 80px; padding-top: 32px;
+  border-top: 1px solid var(--line);
+  font-size: 13px; color: var(--ink-3);
+  display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px;
+}
+footer a { color: var(--ink-3); text-decoration: underline; text-decoration-color: rgba(255,255,255,.2); }
+footer a:hover { color: var(--gold); }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+<header>
+  <a href="/" class="brand"><span class="mark">E</span>Extern<em>a</em>BA</a>
+  <div class="crumb"><a href="/">← Nazad na početnu</a></div>
+  <h1>Autorska prava i <em>izvori</em></h1>
+  <div class="meta">Verzija 1.1 · Stupa na snagu: 25. april 2026.</div>
+</header>
+
+<div class="callout">
+<strong>Kratko:</strong> ExternaBA je <strong>nezavisna obrazovna aplikacija</strong> za vježbu pripreme za eksternu maturu 9. razreda. Sav sadržaj — pitanja, objašnjenja, lekcije, klasifikacija težine i korisnički interfejs — je <strong>originalan rad ExternaBA tima</strong> i predstavlja zaštićeno autorsko djelo, pripremljen u skladu sa važećim nastavnim planovima i programima.
+</div>
+
+<h2>1. Šta je ExternaBA</h2>
+<p>
+ExternaBA je <strong>nezavisna obrazovna aplikacija</strong> namijenjena učenicima 9. razreda za pripremu eksterne mature. Aplikacija pruža interaktivni alat za vježbu kroz kvizove, lekcije, flashcards i simulacije ispita, organizovan po oblastima i temama koje su dio standardnog nastavnog programa.
+</p>
+<p>
+Aplikacija je <strong>privatan, nezavisan projekat</strong> i nije sponzorisana, partnerstvo, niti zvanično podržana od strane bilo koje obrazovne institucije, ministarstva, škole ili državnog organa.
+</p>
+
+<h2>2. Pravna osnova sadržaja</h2>
+<p>
+Sadržaj aplikacije je pripremljen u skladu sa <strong>važećim nastavnim planovima i programima 9. razreda osnovne škole</strong> u Bosni i Hercegovini. Nastavni planovi i programi javnog obrazovnog sistema predstavljaju kurikulum koji definiše:
+</p>
+<ul>
+<li>Teme i oblasti koje učenici uče u 9. razredu</li>
+<li>Tipove zadataka i vještina koje se traže za polaganje eksterne mature</li>
+<li>Standarde znanja i obrazovne ishode</li>
+</ul>
+<p>
+Po Zakonu o autorskom i srodnim pravima Federacije BiH (član 7), <strong>službeni dokumenti javnih organa, kurikulumi, nastavni planovi i programi nisu predmet zaštite autorskim pravom</strong>. To je opšte priznata pravna doktrina koja omogućava širokom krugu autora i izdavača da pripremaju obrazovne materijale, udžbenike, vježbenike i aplikacije za podršku obrazovnom procesu.
+</p>
+<p>
+ExternaBA aplikacija slijedi tu istu logiku — koristi <strong>strukturu javnog kurikuluma</strong> (oblasti, teme, tipove zadataka) kao polaznu tačku za stvaranje <strong>vlastitog originalnog obrazovnog sadržaja</strong>.
+</p>
+
+<h2>3. Originalan rad ExternaBA tima</h2>
+<p>Sljedeći sadržaj u aplikaciji predstavlja autorsko djelo ExternaBA tima i zaštićen je autorskim pravima:</p>
+
+<div class="attr-box">
+
+<div class="src-line">
+<strong>Pitanja i zadaci</strong>
+<span>Pripremljena i formulisana posebno za interaktivni digitalni format. Pitanja su prilagođena mobilnoj korisničkoj iskustvu, multiple-choice formatu sa instant feedback-om i pedagoškoj metodi inkrementalnog napretka.</span>
+</div>
+
+<div class="src-line">
+<strong>Objašnjenja</strong>
+<span>Detaljna pedagoška objašnjenja za svako pitanje — kako se rješava, zašto je tačan odgovor, koje su česte greške. Originalan tekst pisan posebno za ovu aplikaciju.</span>
+</div>
+
+<div class="src-line">
+<strong>Worked examples</strong>
+<span>Korak-po-korak rješenja matematičkih zadataka sa "Korak 1, Korak 2..." strukturom, konceptualnim hintovima i trikovima pamćenja. Originalna pedagoška metoda razvijena za ovu aplikaciju.</span>
+</div>
+
+<div class="src-line">
+<strong>Lekcije</strong>
+<span>Teorijski uvod u svaku oblast prije vježbe — definicije, formule, primjeri, "česte greške", "trikovi za pamćenje". U potpunosti originalan obrazovni sadržaj.</span>
+</div>
+
+<div class="src-line">
+<strong>Klasifikacija težine</strong>
+<span>Sva pitanja klasificirana su u tri nivoa težine (osnovni, srednji, napredni). Klasifikacija je editorska procjena ExternaBA tima zasnovana na kompleksnosti rješavanja.</span>
+</div>
+
+<div class="src-line">
+<strong>Flashcards</strong>
+<span>Kartice za brzo ponavljanje formula, pravila i ključnih pojmova — kreirane od strane ExternaBA tima.</span>
+</div>
+
+<div class="src-line">
+<strong>UI / UX i kod</strong>
+<span>Korisnički interfejs, dizajn, animacije, tipografija, navigacija, kompletan softverski kod — autorsko djelo ExternaBA tima, zaštićeno autorskim pravom.</span>
+</div>
+
+<div class="src-line">
+<strong>KaTeX implementacija</strong>
+<span>Sva matematika u aplikaciji renderuje se preko KaTeX biblioteke (open source, MIT licenca). Formule su semantički kodirane u LaTeX i čine integralni dio originalnog softverskog rada.</span>
+</div>
+
+</div>
+
+<h2>4. Korištenje sadržaja iz ExternaBA aplikacije</h2>
+
+<h3>Šta NE smiješ raditi</h3>
+<ul>
+<li>Reproducirati objašnjenja, lekcije, worked examples ili druge originalne sadržaje aplikacije u svojoj aplikaciji, web stranici ili štampanom materijalu bez pisane dozvole</li>
+<li>Koristiti ExternaBA brending, logo ili tipografiju bez odobrenja</li>
+<li>Reverse-engineering aplikacije i objavljivanje "kopije" ili modificirane verzije</li>
+<li>Komercijalno preprodavati pristup aplikaciji ili sadržaj trećim stranama</li>
+<li>Koristiti aplikaciju za masovnu reprodukciju materijala</li>
+</ul>
+
+<h3>Šta SMIJEŠ raditi (slobodno)</h3>
+<ul>
+<li>Koristiti aplikaciju za ličnu pripremu mature</li>
+<li>Pomagati prijatelju ili djetetu da se priprema preko tvog naloga</li>
+<li>Citirati ExternaBA kao izvor u školskim radovima ili recenzijama</li>
+<li>Preporučivati aplikaciju drugim učenicima i nastavnicima</li>
+<li>Koristiti aplikaciju u nastavi (kao dodatni resurs)</li>
+</ul>
+
+<h2>5. Postupak po žalbi (DMCA / Takedown)</h2>
+<p>
+Ako smatraš da neki sadržaj u aplikaciji povređuje tvoja autorska prava ili prava intelektualne svojine:
+</p>
+<ol>
+<li>Pošalji nam email na <a href="mailto:podrska@externa.ba">podrska@externa.ba</a> sa naslovom <code>[COPYRIGHT TAKEDOWN]</code></li>
+<li>Navedi konkretan dio aplikacije (oblast, pitanje, screenshot)</li>
+<li>Pošalji dokaz autorstva (datum kreiranja, link na originalni rad, kontakt informacije)</li>
+<li>Potvrdi da imaš zakonsko ovlaštenje da podneseš žalbu</li>
+</ol>
+<p>
+Odgovorit ćemo u roku od <strong>7 dana</strong>. Ako tvrdnja ima osnove, dodaćemo prikladnu atribuciju ili ukloniti taj dio sadržaja u skladu sa zakonom.
+</p>
+
+<h2>6. Open source biblioteke</h2>
+<p>ExternaBA koristi sljedeće open source biblioteke, sa zahvalnošću:</p>
+<ul>
+<li><strong>KaTeX</strong> — math rendering (<a href="https://katex.org/" target="_blank" rel="noopener">katex.org</a>, MIT License)</li>
+<li><strong>Playfair Display</strong>, <strong>DM Sans</strong>, <strong>JetBrains Mono</strong> — Google Fonts (OFL License)</li>
+</ul>
+
+<h2>7. Kontakt</h2>
+<p>Za sva pitanja u vezi s autorskim pravima:</p>
+<ul>
+<li>Email: <a href="mailto:podrska@externa.ba">podrska@externa.ba</a></li>
+<li>U naslovu: <code>[COPYRIGHT]</code></li>
+</ul>
+
+<footer>
+  <span>© 2026 ExternaBA · Sarajevo, Bosna i Hercegovina</span>
+  <span><a href="/">Početna</a> · <a href="/privacy.html">Privatnost</a></span>
+</footer>
+
+</div>
+</body>
+</html>

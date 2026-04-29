@@ -1,0 +1,90 @@
+{
+  "name": "ExternaBA — Eksterna matura",
+  "short_name": "ExternaBA",
+  "description": "Priprema za eksternu maturu 9. razreda u Kantonu Sarajevo. Matematika, Engleski, Njemački, Maternji jezik — kvizovi, lekcije, flashcards, simulacije ispita.",
+  "start_url": "/?source=pwa#app",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#060610",
+  "theme_color": "#060610",
+  "lang": "bs",
+  "dir": "ltr",
+  "categories": ["education", "books"],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/phone-1.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Početni ekran sa svim predmetima"
+    },
+    {
+      "src": "/screenshots/phone-2.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Lekcije sa KaTeX matematikom"
+    },
+    {
+      "src": "/screenshots/phone-3.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Kviz sa worked examples"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Matematika",
+      "short_name": "Mat",
+      "url": "/?source=shortcut#mat",
+      "icons": [{ "src": "/icons/shortcut-mat.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Engleski",
+      "short_name": "Eng",
+      "url": "/?source=shortcut#eng",
+      "icons": [{ "src": "/icons/shortcut-eng.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Njemački",
+      "short_name": "Deu",
+      "url": "/?source=shortcut#deu",
+      "icons": [{ "src": "/icons/shortcut-deu.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Maternji",
+      "short_name": "BHS",
+      "url": "/?source=shortcut#bhs",
+      "icons": [{ "src": "/icons/shortcut-bhs.png", "sizes": "96x96" }]
+    }
+  ]
+}
