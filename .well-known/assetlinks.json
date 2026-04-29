@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "ba.externa.externaba",
+      "sha256_cert_fingerprints": [
+        "8B:5A:B8:7B:32:40:FF:B0:11:4C:58:44:BE:DF:2B:E8:F2:A7:97:AF:04:02:CA:D3:EF:F9:86:85:CF:A4:53:3E"
+      ]
+    }
+  }
+]
